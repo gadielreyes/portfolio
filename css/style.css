@@ -7,17 +7,55 @@
     width: 80px;
 }
 
+hr {
+    border-color: #ccc;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1,
+h3 {
+    text-transform: uppercase;
+}
+
+.more-text:hover {
+    cursor: pointer;
+}
+
 .picture-description {
     margin-top: 10px;
     text-align: justify;
 }
 
+.article-title {
+    font-size: 30px;
+}
+
+.article-container {
+    margin-top: 30px;
+}
+
 .feature-work-title {
+    color: #7d97ad;
     text-align: center;
 }
 
 @media screen and (min-width: 992px) {
     .feature-work-title {
         text-align: left;
+    }
+
+    .logo-container {
+        text-align: left;
+    }
+
+    .info-container {
+        text-align: right;
+    }
+
+    .article-container {
+        margin-top: 0;
     }
 }
