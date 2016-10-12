@@ -1,5 +1,5 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 .logo {
@@ -40,6 +40,12 @@ h3 {
 .feature-work-title {
     color: #7d97ad;
     text-align: center;
+}
+
+.jigsaw-image {
+    border: 0;
+    width: 88px;
+    height: 31px
 }
 
 @media screen and (min-width: 992px) {
