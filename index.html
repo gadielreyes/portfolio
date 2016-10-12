@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="container">
+            <section class="row">
+                <div class="col-xs-12 col-md-6">
+                    <img src="img/team.svg" class="logo" alt="team logo">
+                </div>
+                <div class="col-xs-12 col-md-6 text-right">
+                    <h1>Gadiel Reyes</h1>
+                    <h3>front-end ninja</h3>
+                </div>
+            </section>
+            <hr>
+            <section class="row">
+                <div class="col-md-12">
+                    <picture>
+                        <source srcset="img/dogs-1200_large.jpg" media="(min-width: 992px)">
+                        <source srcset="img/dogs-800_medium.jpg" media="(min-width: 400px)">
+                        <img src="img/dogs-400_small.jpg" class="img-responsive" alt="Picture of a several dogs">
+                    </picture>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-md-12">
+                    <h2 class="feature-work-title">Feature work</h2>
+                </div>
+                <article class="col-xs-12 col-md-4 text-center">
+                    <picture>
+                        <source srcset="img/tiger-400_small.jpg" media="(min-width: 992px)">
+                        <img src="img/tiger-800_medium.jpg" class="img-responsive" data-toggle="modal" data-target="#img-tiger" alt="Picture of a tiger">
+                    </picture>
+                    <h3>Tiger</h3>
+                    <p><a href="#">https://github.com/udacity/Tiger</a></p>
+                    <!-- Modal -->
+                    <div class="modal fade" id="img-tiger" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="myModalLabel">Tiger picture</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/tiger-800_medium.jpg" class="img-responsive" alt="Picture of a tiger">
+                                    <p class="picture-description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-xs-12 col-md-4 text-center">
+                    <picture>
+                        <source srcset="img/deer-400_small.jpg" media="(min-width: 992px)">
+                        <img src="img/deer-800_medium.jpg" class="img-responsive" data-toggle="modal" data-target="#img-deer" alt="Picture of a deer">
+                    </picture>
+                    <h3>Deer</h3>
+                    <p><a href="#">https://github.com/udacity/Deer</a></p>
+                    <!-- Modal -->
+                    <div class="modal fade" id="img-deer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="myModalLabel">Tiger picture</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/deer-800_medium.jpg" class="img-responsive" alt="Picture of a deer">
+                                    <p class="picture-description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col-xs-12 col-md-4 text-center">
+                    <picture>
+                        <source srcset="img/frog-400_small.jpg" media="(min-width: 992px)">
+                        <img src="img/frog-800_medium.jpg" class="img-responsive" data-toggle="modal" data-target="#img-frog" alt="Picture of a frog">
+                    </picture>
+                    <h3>Frog</h3>
+                    <p><a href="#">https://github.com/udacity/Frog</a></p>
+                    <!-- Modal -->
+                    <div class="modal fade" id="img-frog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title" id="myModalLabel">Tiger picture</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="img/frog-800_medium.jpg" class="img-responsive" alt="Picture of a frog">
+                                    <p class="picture-description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <hr>
+            <footer>
+                <p>© Copyright - Gadiel Reyes</p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 80px;
+}
+
+.picture-description {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.feature-work-title {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .feature-work-title {
+        text-align: left;
+    }
+}
